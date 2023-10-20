@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "6ef8aca0-a9a3-4360-b0fc-a168d122d24b",
+		"name": "Assignment API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25019234"
+	},
+	"item": [
+		{
+			"name": "GetCommentByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/comment/Hardik",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"comment",
+						"Hardik"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveComment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"commentFrom\":\"Nikhil\",\r\n    \"commentTo\":\"Hardik\",\r\n    \"message\":\"This is second comment\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/comment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"comment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
