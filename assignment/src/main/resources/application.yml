@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 1234567
+    driver-class-name: org.postgresql.Driver
+# Video walk through link = https://drive.google.com/file/d/1Ff6y5Tw5ZanEW-bJmBCbLUDGVa3F1pA-/view?usp=share_link

@@ -1,0 +1,8 @@
+com\example\assignment\repository\UserRepo.class
+com\example\assignment\common\service\ModelMapperService.class
+com\example\assignment\dto\UserDto.class
+com\example\assignment\AssignmentApplication.class
+com\example\assignment\entity\Comment.class
+com\example\assignment\service\UserService.class
+com\example\assignment\controller\UserController.class
+com\example\assignment\entity\User.class
